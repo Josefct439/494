@@ -5,4 +5,4 @@ newpass = ("")
 for i in range (long):
     newpass = newpass + random.choice(chars)
 
-print(newpass)
+print(newpass*20)
