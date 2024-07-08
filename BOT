@@ -20,7 +20,6 @@ async def heh(ctx, count_heh = 5):
 
 @bot.command()
 async def add(ctx, left: int, right: int, tercer: int):
-    """Adds two numbers together."""
     await ctx.send(left + right + tercer)
 
 @bot.command()
